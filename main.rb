@@ -45,5 +45,4 @@ participants = GenerateParticipant.new("fake1@example.com\nfake2@example.com\nfa
 participants.generate_participant_users_from_email_string
 
 workflow = LaunchDiscussionWorkflow.new(discussion, host, participants)
-workflow.generate_participant_users_from_email_string
 workflow.run 
